@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <style>
+
+        body{
+            background-color: cadetblue;
+            display: inline-block;
+            text-align: center;
+
+
+
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .main{
+            height: 100vh;
+            width: 100vw;
+            border: 1px solid red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+    <div class="main">
+
+    <table>
+        <tr>
+            <th>PERSONAL DETAILS</th>
+        </tr>
+        
+        <tr>
+            <td><label for="first name">NAME:</label></td>
+            <td><input type="text" name="first name" id="first name"></td>
+        </tr>
+
+        <tr>
+            <td><label for="password">PASSWORD:</label></td>
+            <td><input type="password" name="password" id="password"></td>
+        </tr>
+
+        <tr>
+            <td><label for="email">EMAIL:ID</label></td>
+            <td><input type="email" name="email" id="email"></td>
+        </tr>
+
+        <tr>
+            <td>GENDER:</td>
+            <td><label for="male">MALE</label>
+            <input type="radio" name="gender" id="male">
+            <td><label for="female">FEMALE
+                <input type="radio" name="gender" id="female">
+        </tr>
+
+        <tr>
+            <td><label for="contact">CONTACT:</label></td>
+            <td><input type="tel" name="contact" id="contact"></td>
+        </tr>
+
+        <tr>
+            <TR></TR>
+            <BR>
+
+                <th> EDUCATIONAL  QUALIFICATION</th>
+        </tr>
+
+        <tr>
+            <td><label for="degree">DEGREE:</label></td>
+
+            <td>
+                <select name="id">
+                    <option value="bsc">BSC</option>
+                    <option value="bsc.cs">BSC.CS</option>
+                    <option value="bcs">BCS</option>
+                    <option value="bca">BCA</option>
+                    <option value="bsc.agriculter">IT</option>
+                </select>
+            </td>
+            <tr>
+                <td><label for="engineering">ENGINEERING:</label></td>
+                <td>
+               <select name="engineering" id="engineering">
+                <option value="mechanical">MECHANICAL</option>
+                <option value="software">SOFTWARE</option>
+                <option value="civil">CIVIL</option>
+                <option value="electronic">ELECTRONIC</option>
+                <option value="it">IT</option>
+               </select>     
+                </td>
+
+                <tr>
+                    <td>HOBBIES</td>
+                    <td><input type="checkbox" name="hobbies" id="playing chess">
+
+                        <label for="playing chess">PLAYING CHESS</label>
+                        <input type="checkbox" name="hobbies" id="reading books">
+                        <label for="reading books">READING BOOKS</label>
+                </tr>
+
+                <tr>
+                    <th>ADDRESS</th>
+                </tr>
+
+                <tr>
+                    <td><textarea name="" id="" cols="30" rows="5"></textarea></td>
+                </tr>
+
+                <tr>
+                    <td><label for="file">ATTCH RESUME:</label></td>
+                    <td><input type="file" name="file" id="file" multiple></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="submit"></td>
+                </tr>
+            
+        
+    </table>
+</div>
+            
+    
+</body>
+</html>
